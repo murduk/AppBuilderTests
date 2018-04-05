@@ -1,0 +1,19 @@
+{
+    "Properties": {
+        "State": {
+            "Type": "state"
+        },
+        "Owner": {
+            "Type": "user"
+        },
+        "Description": {
+            "Type": "string"
+        }
+    },
+    "Constructor":{
+        "description":{
+            "Type": "string"
+        }
+    }
+}
+
