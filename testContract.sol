@@ -17,11 +17,14 @@ contract LexingtonBase {
     }
 }
 
-contract AppBuilderTestContract is LexingtonBase('AppBuilderTestContract') {
+contract AppBuilderTestContract is LexingtonBase("AppBuilderTestContract") {
     enum ContractState { Created, Active, Complete, Terminated }
     address public Owner;
     string public Description;    
     ContractState public State;
+    address public FirstUser;
+    address public SecondUser;
+
 
     function AppBuilderTestContract(string description){
         Owner = msg.sender;

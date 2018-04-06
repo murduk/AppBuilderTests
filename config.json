@@ -8,10 +8,16 @@
         },
         "Description": {
             "Type": "string"
+        },
+        "FirstUser": {
+            "Type": "user"
+        },
+        "SecondUser": {
+            "Type": "user"
         }
     },
-    "Constructor":{
-        "description":{
+    "Constructor": {
+        "description": {
             "Type": "string"
         }
     },
@@ -25,6 +31,4 @@
             "PropertyOverrides": {}
         }
     }
-
 }
-

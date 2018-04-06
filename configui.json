@@ -1,0 +1,31 @@
+{
+    "InitiatingRoles": [
+        "Admin",
+        "User"
+    ],
+    "Personas": {
+        "Owner": {
+            "Role": "Initiator",
+            "IsInitiator": true,
+            "PropertyMapping": "Owner"
+        },
+        "Buyer": {
+            "Role": "Participant",
+            "PropertyMapping": "FirstUser"
+        },
+        "Appraiser": {
+            "Role": "Participant",
+            "PropertyMapping": "SecondUser"
+        }
+    },
+    "StateProperty": "State",
+    "StateMapping": {
+        "Created": 0,
+        "Active": 1,
+        "Complete": 2,
+        "Terminated": 3
+    },
+    "Constructor": {
+        "Description": "Sample Description"
+    }
+}
